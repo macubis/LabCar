@@ -46,3 +46,27 @@
 	background-color: #f7b617;
 	border:none; 
 }
+.fondo-negro2{
+	padding: 30px;
+	background-color: #2b2b2b;
+}
+.caja{
+	padding:25px;
+	border-bottom: 1px solid white;
+}
+
+.b-blanco{
+	padding: 20px;
+	border-bottom: 1px solid white;
+}
+.cajita{
+	position: bottom;
+	padding: 0;
+}
+.icon-blanco{
+	color:white;
+	;
+}
+.ultimo{
+	padding-top: 20px;
+}
