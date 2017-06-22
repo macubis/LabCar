@@ -2,24 +2,51 @@
 	margin: 0;
 	padding: 0;
 }
+/* nav y hamburguesa*/
 
+.barra-icono{
+	margin:0;
+	background-color: white;
+	color: #2b2b2b;
+	padding:20px 25px;
+
+}
+/*fin de nav y hamburguesa*/
+
+/*Inicio de seccion hero*/
 .fondo-taxi{
 	background-image: url(../img/taxi.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:bottom;
+	padding: 150px 0px;
+}
+.logo-white{
+	width: 80px;
+}
+.rayitas{
+	width: 100px;
+	height: 20px;
+	background-color:#f7b617;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid white;
 
 }
-
-/* Seccion: informacion */
-
 .fondo-amarillo{
 	background-color: #f7b617;
 	color: white;
+	padding: 30px;
 }
-.rayita{
-	display: inline-block;
+.btn-bla{
+	color:black;
+	background-color: whitesmoke;
+	padding: 10px;
 }
+/*fin de seccion hero*/
+
+/*inicio de seccion informacion*/
 .fondo-amarillo2{
 	background-color: #f7b617;
 	color: white;
@@ -31,12 +58,12 @@
 }
 .foto-celu{
 	padding-top: 30px;
-	width: 60%;
+	width: 80%;
 	text-align: center;
 }
 /*Seccion informacion*/
 
-
+/*seccion conduce */
 .foto-reloj{
 	background-image: url(../img/conduce.jpg);
 	background-repeat: no-repeat;
@@ -47,15 +74,36 @@
 .fondo-negro{
 	background: rgba(0, 0, 0, .7); 
 	color: white;
-	padding: 50px;
+	padding:80px 20px 150px 20px;
 }
 .btn-amarillo{
 	background-color: #f7b617;
+	color: white;
 	border:none; 
+	font-size: 20px;
 }
 .fondo-negro2{
 	padding: 30px;
 	background-color: #2b2b2b;
+}
+.parrafo{
+	line-height: 24px;
+}
+/*seccion conduce*/
+
+/*seccion tarifas*/
+.tarifas{
+	background-color:#f7b617;
+	color: white;
+	padding: 50px;
+}
+.input-amarilla{
+	background-color: 
+}
+.foto-mapa{
+	width: 80%;
+	margin: 10px;
+	border: 2px solid white;
 }
 .caja{
 	padding:25px;
@@ -67,13 +115,23 @@
 	border-bottom: 1px solid white;
 }
 .cajita{
-	position: bottom;
-	padding: 0;
+	margin-top: 100px;
+
 }
 .icon-blanco{
+	padding-bottom: 50px;
 	color:white;
 	;
 }
 .ultimo{
 	padding-top: 20px;
+}
+.letras-blanca {
+	padding: 20px;
+}
+
+.letras-blanca a{
+	padding: 20px.
+	text-decoration: none;
+	color:white;
 }

@@ -5,87 +5,63 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Labcar</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
 <!-- la barra del navegador -->
-	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
+	<nav class="navbar navbar-default barra-icono">
+  		<div class="container">
    			 <div class="navbar-header">
-      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      			<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         			<span class="sr-only">Toggle navigation</span>
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
       			</button>
-      				<a class="navbar-brand" href="#">Brand</a>
+      				<a><img src="assets/img/logo.png" alt=""></a>
     		</div>
-
-    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  	</div><!-- /.container-fluid -->
+    		<div class="collapse navbar-collapse icono-derecha" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav navbar-right">
+        			<li class="nav-item"><a href="#">Viaja</a></li>
+        			<li class="nav-item"><a href="#">Conduce</a></li>
+        			<li class="nav-item"><a href="#">Inicia sesión</a></li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
 	</nav>
 <!-- termina la barra -->
+
+<!-- inicio de la seccion hero -->
 	<section class="hero">
 		<div class="container-fluid fondo-taxi">
 			<div class="row">
-				<div class="col-lg-12">	
-					<div class="col-md-4"></div>
-  					<div class="col-md-4 col-md-offset-4 fondo-amarillo">
-						<h2>Disfruta del viaje</h2>
-						<h2>Eres dueño de tu tiempo</h2>
-						<h4>Viaja con </h4>
-						<img src="assets/img/logo-blanco.png"class="icon-hero" alt="">
-						<h6>REGISTRATE</h6>
-						<input class=rayitas type="text" >
-						<h6>O bien</h6>
-						<input  class="rayitas" type="text">
-						<button class="btn btn-default btn-bla">Conviértete en un conductor</button>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+  					<div class="col-lg-4 col-md-4 col-md-offset-4 fondo-amarillo hidden-xs">
+						<h2>Disfruta del viaje<br>Eres dueño de tu tiempo</h2><br>
+						<h4>Viaja con  <img src="assets/img/logo-blanco.png"class="logo-white" alt=""></h4>
+						<p>REGISTRATE</p><br>
+						<p><input class=rayitas type="text"> O bien <input  class="rayitas" type="text"></p><br>
+						<button class="btn btn-default btn-bla"><strong>Conviértete en un conductor</strong></button>
 					</div>
-				</div>
+					<div class="col-md-4 col-md-offset-4 col-xs-offset-3 fondo-amarillo visible-xs text-center">
+						<h3>Comienza a viajar <br>con <img src="assets/img/logo-blanco.png" alt=""></h3>
+						<button class="btn btn-default btn-bla">Descarga el app</button>
+					</div>		
 			</div>
 		</div>
 	</section>
+<!-- fin de seccion hero -->
 
-	<!-- Inicio seccion informacion -->
+<!-- Inicio seccion informacion -->
 	<section class="informacion">
 		<div class="container-fluid fondo-amarillo2">
 			<div class="row">
 				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 borde">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
 						<h3 class="visible-xs">La nueva app</h3>
-						<img class="foto-celu" src="assets/img/celular.png" alt="foto-celu">
+						<img class="foto-celu img-responsive" src="assets/img/celular.png" alt="foto-celu">
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs">
 						<h2><strong>Descarga la nueva app</strong></h2><br>
@@ -101,33 +77,69 @@
 	</section>
 <!-- Fin seccion informacion -->
 
+<!-- Inicio conduce -->
 	<section class="conduce">
 		<div class="container-fluid foto-reloj">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="col-md-4"></div>
-  					<div class="col-md-4 col-md-offset-4 fondo-negro">
-						<h2>Conduce cuando quieras</h2>
-						<h5>LabCar es una opcion flexible para alcanzar tus metas financieras</h5>
-						<button class="btn btn-default btn-amarillo">Conviértete en Conductor</button>
-					</div>
+				<div class="col-md-4"></div>
+  				<div class="col-md-4 col-md-offset-4 fondo-negro">
+				<h3 class="parrafo"><strong>Conduce cuando quieras</strong></h3>
+				<h4 class="parrafo">LabCar es una opcion flexible para alcanzar tus metas financieras</h4>
+				<button class="btn btn-default btn-amarillo">Conviértete en Conductor</button>
 				</div>
 			</div>
 		</div>
 	</section>
+<!-- Fin inicio conduce -->
+
+<!-- inicio de seccion tarifas -->
+
+    <section class="tarifas" >
+        <div class="container-fluid">
+            <div class="row">               
+                <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12">
+                   <h1>Tarifas</h1>
+                   <h3>Consulta las tarifas LabCar aquí</h3>
+                   		<div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            	<div class="form-group">
+                                <img src="assets/img/circulo.png">
+                               	<input type="text" class="input-amarillo" placeholder="Ingrese su punto de partida" id="punto-partida">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+                            	<div class="form-group"> 
+                                <img src="assets/img/flecha.png" alt="circulo">
+                                <input type="text" class="input-amarillo" placeholder="Ingrese su destino" id="punto-llegada">
+                                </div>
+                               	<div class="form-group">
+                                <button type="button" class="btn btn-default" id="ruta">¡Trazar Ruta!</button>
+                                </div>
+                   	    </div>
+                  	</div> 
+               	</div>                           
+                <div class="col-lg-6 col-md-12 col-sm-12 hidden-xs" id="map">
+                	<img src="assets/img/images.jpg" alt="" class="foto-mapa">             
+                        
+                </div>                
+            </div>                    
+        </div>        
+    </section>
 
 
-
+<!-- Inicio de Footer -->
 	<footer class="fondo-negro2">
 		<div class="container caja">
 			<div class="row">
 				<div class="col-md-12 b-blanco">
 					<img src="assets/img/logo-blanco.png" alt="">
 				</div>
-				<div class="col-md-3 cajita">
+				<div class="col-md-3 cajita letras-blanca hidden-xs">
 					<p class="icon-blanco"><i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-linkedin" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-play" aria-hidden="true"></i> </p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 letras-blanca ">
 					<ul>
 						<li><a href="#">Viaja</a></li>
 						<li><a href="#">Conduce</a></li>
@@ -138,7 +150,7 @@
 						<li><a href="#">Seguridad</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 letras-blanca hidden-xs">
 					<ul>
 						<li><a href="#">Oportunidades</a></li>
 						<li><a href="#">Nuestra historia</a></li>
@@ -150,8 +162,8 @@
 						<li><a href="#">Coders</a></li>
 					</ul>					
 				</div>
-				<div class="col-md-3 ">
-					<img src="assets/img/app-store.png" alt="">
+				<div class="col-md-3 letras-blanca ">
+					<img src="assets/img/app-store.png" alt=""><br><br>
 					<img src="assets/img/google-play.png" alt="">
 				</div>
 			</div>
@@ -167,10 +179,10 @@
 
 
 
-
-
+		
+	 <script src="https://maps.googleapis.com/maps/api/?key=AIzaSyAvqdaWjRy7QrMCNYt3CHZfAuPZG1d5AvYcontent_copy&callback=initMap" async defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://use.fontawesome.com/477be0bbd3.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
